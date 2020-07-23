@@ -1,0 +1,25 @@
+{
+	"name" : "dimitar-kunchev/proc-meminfo",
+	"description" : "Read and parse server memory info from /proc/meminfo",
+	"type" : "library",
+	"keywords" : [
+		"meminfo"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Dimitar Kunchev",
+			"email" : "dimitar.kunchev@racecloud.net",
+			"role" : "developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"ProcMeminfo\\" : ""
+		}
+	},
+	"minimum-stability" : "stable",
+	"prefer-stable" : true
+}
